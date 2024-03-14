@@ -207,12 +207,12 @@ body {
 }
 
 .covers.arh {
-  background: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) ), url("./backgroundImages/Bogtaarnet.png");  
+  background: linear-gradient(270deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1) ), url("./backgroundImages/right.png");  
   left:50vw;
 }
 
 .covers.cph {
-  background: linear-gradient(270deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) ), url("./backgroundImages/Diamanten.png");
+  background: linear-gradient(270deg, rgb(255, 255, 255), rgba(255, 255, 255, 0) ), url("./backgroundImages/left.png");
 }
 
 #menu {
