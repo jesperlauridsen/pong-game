@@ -1,0 +1,45 @@
+<html lang="en">
+  <head>
+    <title>justjspr</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link href="styles.css" rel="stylesheet" defer />
+    <script src="ballArray.js" defer></script>
+    <script src="rocket.js" defer></script>
+    <script src="pong.js" defer></script>
+  </head>
+
+  <body>
+    <div class="covers arh"></div>
+    <div class="covers cph"></div>
+    <div id="animationWindow"></div>
+    <div style="display: none" id="debug"></div>
+    <canvas id="mainstage"> </canvas>
+    <div id="init">Play ball!</div>
+    <div id="newGame">Play again</div>
+    <div class="centerCircle"></div>
+    <hr class="halfLine" />
+    <div class="slidezone left">SLIDEZONE</div>
+    <div id="goleft" class="gameover"></div>
+    <div class="slidezone right">SLIDEZONE</div>
+    <div id="goright" class="gameover"></div>
+    <div id="scoreb" class="scoreboard">
+      <div id="leftSideScore" class="score">0</div>
+      :
+      <div id="rightSideScore" class="score">0</div>
+    </div>
+    <div id="menu" class="menu">
+      <span>MENU</span>
+      <ul>
+        <li id="reset">Reset game</li>
+        <hr />
+        <li id="gBeginner"><span class="prefix">Gamemode:</span> <span class="name">Beginner</span></li>
+        <hr />
+        <li id="gAdvanced"><span class="prefix">Gamemode:</span> <span class="name">Advanced</span></li>
+        <hr />
+        <li id="gHardcore"><span class="prefix">Gamemode:</span> <span class="name">Hardcore</span></li>
+      </ul>
+    </div>
+  </body>
+</html>
